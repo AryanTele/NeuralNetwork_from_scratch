@@ -19,27 +19,12 @@ This project implements a neural network from scratch using NumPy and fundamenta
 
 1. Clone this repository:
 
-   git clone https://github.com/yourusername/neural-network-from-scratch.git
-
-2. Install the required dependencies:
+   git clone git@github.com:AryanTele/NeuralNetwork_from_scratch.git
+   
+3. Install the required dependencies:
 
    pip install numpy
 
-## Usage
-
-from neural_network import NeuralNetwork
-
-# Create a neural network with 2 input neurons, 3 hidden neurons, and 1 output neuron
-
-nn = NeuralNetwork([2, 3, 1])
-
-# Train the network
-
-nn.train(X_train, y_train, epochs=1000, learning_rate=0.1)
-
-# Make predictions
-
-predictions = nn.predict(X_test)
 
 ## Project Structure
 
@@ -52,10 +37,6 @@ predictions = nn.predict(X_test)
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
